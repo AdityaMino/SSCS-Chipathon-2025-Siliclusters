@@ -8,17 +8,18 @@
 ---
 
 ## 📝 About Project  
-In our project, we are designing a **low-power, area-efficient 6T SRAM bitcell** optimized for the **GF180MCU-D 9-track standard cell height**.  
+In our project, we are designing a **low-power, area-efficient 6T SRAM bitcell** optimized for the **GF180MCU-D  standard cell**.  
 The goal is to develop a memory cell with enhanced **read stability, write margin, and leakage performance** for integration into open-source SoCs, supporting standard open-source tool flows.
 
 We aim to make this a reusable, reliable memory building block for future **GF180MCU** projects by the community.
+
+#### **PROJECT TRACKER - https://docs.google.com/spreadsheets/d/1I3WJNxxtnPEOm24B_O6vsVvTo-F7wX3jf2FrStrXF3M/edit?usp=sharing** 
 
 ---
 
 ## 📐 SRAM 6T Bitcell Specifications
 ### Process: GF180MCU-D
 ### Supply Voltage: 3.3 V (with target simulations down to 0.9 V)
-### Track: 9-track compatible height
 ### Drive Strength: Optimized for array integration
 ### Transistor Sizing: Balanced for read SNM, write margin, leakage
 
@@ -66,7 +67,7 @@ We aim to make this a reusable, reliable memory building block for future **GF18
 ---
 
 ### Week 2 : 21 - 25 July  
-**Task:** Initial layout in Magic following GF180MCU 9-track constraints  
+**Task:** Initial layout in Magic following GF180MCU constraints  
 **Key Success:** Clean DRC, compact layout for bitcell, preliminary array planning
 
 ---
